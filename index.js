@@ -4,6 +4,7 @@ const pool = require('./db.js');
 const expressLayouts = require('express-ejs-layouts');
 const bodyParser = require('body-parser')
 
+
 app.use(express.json());
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
